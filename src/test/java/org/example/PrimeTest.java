@@ -12,6 +12,6 @@ public class PrimeTest {
     }
     @org.junit.Test
     public void isPrime3() {
-        Assert.assertEquals(Prime.isPrime(3), true);
+        Assert.assertEquals(Prime.isPrime(3), false); // error!
     }
 }
